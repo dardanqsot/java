@@ -1,0 +1,37 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+bin/
+
+# Ignorar archivos de configuración de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+*.xml
+target/
+
+# Ignorar archivos de registro y respaldo
+*.log
+*.bak
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
