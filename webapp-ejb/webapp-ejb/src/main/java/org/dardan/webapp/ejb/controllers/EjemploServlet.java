@@ -34,7 +34,7 @@ public class EjemploServlet extends HttpServlet {
         System.out.println("nuevo producto " + p);
 
         req.setAttribute("saludo", service.saludar("Darwin"));
-        req.setAttribute("saludo2", service2.saludar("John"));
+        req.setAttribute("saludo2", service2.saludar("Daniel"));
         req.setAttribute("listado", service.listar());
         getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
     }
