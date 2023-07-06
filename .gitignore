@@ -7,7 +7,6 @@ bin/
 *.iml
 *.ipr
 *.iws
-*.xml
 target/
 
 # Ignorar archivos de registro y respaldo
