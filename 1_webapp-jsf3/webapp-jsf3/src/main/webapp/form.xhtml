@@ -21,13 +21,13 @@
         <h:form>
             <h:panelGrid columns="2">
                 <h:outputLabel value="Nombre" for="nombre"/>
-                <h:inputText id="nombre" value="#{producto.nombre}"/>
+                <h:inputText id="nombre" value="#{producto.nombre}" required="true" label="Nombre"/>
 
                 <h:outputLabel value="Precio" for="precio"/>
-                <h:inputText id="precio" value="#{producto.precio}"/>
+                <h:inputText id="precio" value="#{producto.precio}" required="true" label="Precio"/>
 
                 <h:outputLabel value="Sku" for="sku"/>
-                <h:inputText id="sku" value="#{producto.sku}"/>
+                <h:inputText id="sku" value="#{producto.sku}" required="true" label="Sku"/>
 
                 <h:outputLabel value="Fecha" for="fechaRegistro"/>
                 <h:inputText id="fechaRegistro" value="#{producto.fechaRegistro}" label="Fecha Registro" required="true" convertMessage="Indique la fecha con yyyy-MM-dd">
