@@ -30,11 +30,15 @@
         </div>
     </nav>
     <div class="container">
+        <h:messages globalOnly="true" styleClass="alert" errorClass="alert alert-danger"
+                    infoClass="alert alert-success"
+                    warnClass="alert alert-warning" />
+
         <ui:insert name="content" />
         <hr/>
         <footer style="clear: both;">
             <h:graphicImage value="/resources/img/jakarta.png" alt="logo jakarta" />
-            <p>Desarrollado por Darwin 2023</p>
+            <p>Desarrollado por Andres 2022</p>
             <h:outputScript name="js/bootstrap.bundle.min.js" />
             <ui:insert name="js" />
         </footer>
